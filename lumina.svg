@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750">
+<defs>
+<linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#1c1917"/><stop offset="100%" stop-color="#0c0a09"/></linearGradient>
+<linearGradient id="glass" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#f5f5f4" stop-opacity="0.25"/><stop offset="40%" stop-color="#d4a574" stop-opacity="0.35"/><stop offset="100%" stop-color="#78716c" stop-opacity="0.2"/></linearGradient>
+<linearGradient id="liq" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#fbbf24" stop-opacity="0.6"/><stop offset="100%" stop-color="#b45309" stop-opacity="0.8"/></linearGradient>
+<radialGradient id="shine" cx="35%" cy="30%" r="40%"><stop offset="0%" stop-color="#fff" stop-opacity="0.5"/><stop offset="100%" stop-color="#fff" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="1200" height="750" fill="url(#bg)"/>
+<!-- bottle body -->
+<rect x="520" y="220" width="160" height="320" rx="20" fill="url(#glass)" stroke="#d4a574" stroke-width="1.5" opacity="0.9"/>
+<!-- liquid -->
+<rect x="530" y="360" width="140" height="170" rx="12" fill="url(#liq)"/>
+<!-- neck -->
+<rect x="565" y="160" width="70" height="70" rx="6" fill="url(#glass)" stroke="#d4a574" stroke-width="1"/>
+<!-- cap -->
+<rect x="555" y="120" width="90" height="50" rx="8" fill="#a8a29e"/>
+<!-- shine -->
+<ellipse cx="560" cy="300" rx="30" ry="80" fill="url(#shine)"/>
+<!-- reflection floor -->
+<ellipse cx="600" cy="580" rx="120" ry="20" fill="#d4a574" opacity="0.1"/>
+<text x="600" y="680" text-anchor="middle" fill="#d4a574" font-family="system-ui,sans-serif" font-size="22" font-weight="600" letter-spacing="6">LUMINA</text>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750">
+<defs>
+<linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#1a1816"/><stop offset="100%" stop-color="#0d0c0b"/></linearGradient>
+<linearGradient id="m" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#e8e4df"/><stop offset="50%" stop-color="#a8a29e"/><stop offset="100%" stop-color="#57534e"/></linearGradient>
+<linearGradient id="g" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#d4a574" stop-opacity="0.4"/><stop offset="100%" stop-color="#d4a574" stop-opacity="0"/></linearGradient>
+<filter id="soft"><feGaussianBlur stdDeviation="20"/></filter>
+</defs>
+<rect width="1200" height="750" fill="url(#bg)"/>
+<ellipse cx="600" cy="700" rx="400" ry="80" fill="#d4a574" opacity="0.08" filter="url(#soft)"/>
+<!-- headphone left cup -->
+<ellipse cx="380" cy="340" rx="90" ry="110" fill="url(#m)" opacity="0.95"/>
+<ellipse cx="380" cy="340" rx="55" ry="70" fill="#1c1917"/>
+<ellipse cx="380" cy="340" rx="35" ry="45" fill="#292524"/>
+<!-- right cup -->
+<ellipse cx="820" cy="340" rx="90" ry="110" fill="url(#m)" opacity="0.95"/>
+<ellipse cx="820" cy="340" rx="55" ry="70" fill="#1c1917"/>
+<ellipse cx="820" cy="340" rx="35" ry="45" fill="#292524"/>
+<!-- headband -->
+<path d="M380 250 Q600 80 820 250" fill="none" stroke="url(#m)" stroke-width="28" stroke-linecap="round"/>
+<path d="M380 250 Q600 100 820 250" fill="none" stroke="#44403c" stroke-width="12" stroke-linecap="round"/>
+<!-- accent light -->
+<circle cx="600" cy="200" r="120" fill="url(#g)"/>
+<text x="600" y="680" text-anchor="middle" fill="#d4a574" font-family="system-ui,sans-serif" font-size="22" font-weight="600" letter-spacing="6">HANIEX</text>
+</svg>

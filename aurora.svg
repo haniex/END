@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750">
+<defs>
+<linearGradient id="sky" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#1e293b"/><stop offset="60%" stop-color="#334155"/><stop offset="100%" stop-color="#78716c"/></linearGradient>
+<linearGradient id="sea" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#0f172a"/><stop offset="100%" stop-color="#1e293b"/></linearGradient>
+<linearGradient id="glass" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#e2e8f0" stop-opacity="0.35"/><stop offset="100%" stop-color="#94a3b8" stop-opacity="0.15"/></linearGradient>
+<linearGradient id="warm" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#fbbf24" stop-opacity="0.5"/><stop offset="100%" stop-color="#f59e0b" stop-opacity="0"/></linearGradient>
+</defs>
+<rect width="1200" height="750" fill="url(#sky)"/>
+<rect y="520" width="1200" height="230" fill="url(#sea)"/>
+<!-- sun glow -->
+<circle cx="900" cy="280" r="100" fill="url(#warm)"/>
+<circle cx="900" cy="280" r="40" fill="#fde68a" opacity="0.8"/>
+<!-- villa structure -->
+<rect x="280" y="320" width="480" height="220" fill="#1c1917" opacity="0.9"/>
+<rect x="300" y="340" width="200" height="140" fill="url(#glass)"/>
+<rect x="520" y="340" width="200" height="140" fill="url(#glass)"/>
+<!-- roof overhang -->
+<rect x="250" y="300" width="540" height="24" fill="#a8a29e"/>
+<!-- pool reflection strip -->
+<rect x="320" y="560" width="400" height="8" fill="#38bdf8" opacity="0.25"/>
+<text x="600" y="700" text-anchor="middle" fill="#d4a574" font-family="system-ui,sans-serif" font-size="20" font-weight="600" letter-spacing="4">AURORA RESIDENCE</text>
+</svg>
